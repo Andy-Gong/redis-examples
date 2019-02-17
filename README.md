@@ -1,16 +1,11 @@
 # Redis-examples
 
-This project is based on spring boot, it introduces how to build the distribute lock via Redis. Redis client adopts the spring-boot-starter-data-redis.
-```
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
-```
+This project is based on spring boot, it introduces how to build the distribute lock via Redis.
 
 # Percondition
 - Maven 3++
 - java 8
+- Redis
 
 
 # Run application
