@@ -23,4 +23,6 @@ git clone https://github.com/Andy-Gong/redis-examples.git
 
 2. Run with demo
 
-Find RedisTest.class and run it. In the demo, it contains 10 threads to compete the LOCK. If one thread gets the LOCK, it will hold the LOCK 10 seconds, then release the LOCK, then other threads can compete the LOCK. If the LOCK get process is blocking until it gets the LOCK.
+   Find RedisTest.class and run it. In the demo, it contains 10 threads to compete the LOCK. If one thread gets the LOCK,        it will hold the LOCK 10 seconds, then release the LOCK, then other threads can compete the LOCK. If the LOCK get              process is blocking until it gets the LOCK.
+   
+3. How to get or release LOCK
